@@ -1,0 +1,60 @@
+{
+  "employees": [
+    {
+      "fname": "salah",
+      "lname": "gamal",
+      "email": "devshennawy@gmail.com",
+      "address": "egypt",
+      "age": "25",
+      "username": "salah_gamal_1612580712411",
+      "password": "salah_gamal_58",
+      "attendance": {
+        "1": {
+          "attendance_time": [
+            "2/6/2021, 5:06:53 AM"
+          ],
+          "late": "0",
+          "permission": "0",
+          "excuse": "0"
+        }
+      },
+      "role": 3,
+      "created_at": "2/6/2021, 5:05:13 AM",
+      "id": 1
+    },
+    {
+      "fname": "Cally",
+      "lname": "Ramos",
+      "email": "devshennawy@gmail.com",
+      "address": "Fuga Velit volupta",
+      "age": "22",
+      "username": "Cally_Ramos_1612583817936",
+      "password": "Cally_Ramos_86",
+      "attendance": {
+        "1": {
+          "attendance_time": [
+            "2/6/2021, 10:25:15 AM"
+          ],
+          "late": 1,
+          "permission": "0",
+          "excuse": "0"
+        }
+      },
+      "role": 3,
+      "created_at": "2/6/2021, 5:56:58 AM",
+      "id": 2
+    }
+  ],
+  "admins": [
+    {
+      "id": 1,
+      "fname": "Salah",
+      "lname": "Gamal",
+      "username": "Salah_51248",
+      "email": "devshennawy@gmail.com",
+      "address": "Sharqia, Egypt",
+      "password": "salah_48",
+      "age": 26
+    }
+  ]
+}
