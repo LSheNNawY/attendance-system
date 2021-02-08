@@ -5,9 +5,9 @@
     <meta charset="UTF-8">
     <title>Register</title>
 
-    <link rel="stylesheet" href="../css/all.css">
-    <link rel="stylesheet" href="../css/bootstrap.css">
-    <link rel="stylesheet" href="../css/register.css">
+    <link rel="stylesheet" href="./css/all.css">
+    <link rel="stylesheet" href="/css/bootstrap.css">
+    <link rel="stylesheet" href="/css/register.css">
 
 </head>
 
@@ -50,26 +50,48 @@
                 <form action="#" method="get" id="regForm">
                     <div class="form-group mb-4">
                         <input type="text" class="form-control py-1" id="fname" placeholder="First name" required />
+                        <div id="fnameErrorMsg" class="invalid-feedback text-left">
+                            Invalid name
+                        </div>
                     </div> <!-- fname -->
 
                     <div class="form-group mb-4">
                         <input type="text" class="form-control py-1" id="lname" placeholder="Last name" required />
+                        <div id="lnameErrorMsg" class="invalid-feedback text-left">
+                            Invalid name
+                        </div>
                     </div> <!-- lname -->
 
                     <div class="form-group mb-4">
                         <input type="text" class="form-control py-1" id="address" placeholder="address" required />
+                        <div id="addressErrorMsg" class="invalid-feedback text-left">
+                            Invalid address
+                        </div>
                     </div> <!-- adsress -->
 
                     <div class="form-group mb-4">
                         <input type="email" class="form-control py-1" id="email" placeholder="E-mail" required />
+                        <div id="emailErrorMsg" class="invalid-feedback text-left">
+                            Invalid email
+                        </div>
                     </div> <!-- email -->
 
                     <div class="form-group mb-4">
                         <input type="number" class="form-control py-1" id="age" placeholder="age" min="20" required />
+                        <div id="ageErrorMsg" class="invalid-feedback text-left">
+                            Invalid age
+                        </div>
                     </div> <!-- age -->
 
-                    <div class="form-group">
-                        <button type="submit" class="btn btn-block btn-primary py-1">Register</button>
+                    <div class="row">
+                        <div class="form-group col-md-9">
+                            <button type="submit" class="btn btn-block btn btn-primary py-1">Register</button>
+                        </div>
+                        <div class="form-group col-md-3">
+                            <a href="./login.html" class="btn btn-success btn-block py-1"><i
+                                    class="fa fa-sign-in-alt"></i>Login
+                            </a>
+                        </div>
                     </div>
                 </form>
             </div>
@@ -77,12 +99,12 @@
 
     </div>
 
-    <script src="../js/JQuery-3.3.1.js"></script>
-    <script src="../js/popper.js"></script>
-    <script src="../js/bootstrap.js"></script>
+    <script src="/js/JQuery-3.3.1.js"></script>
+    <script src="/js/popper.js"></script>
+    <script src="/js/bootstrap.js"></script>
     <script src="https://smtpjs.com/v3/smtp.js"></script>
     <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
-    <script src="../js/employee.js"></script>
+    <script src="/js/register.js"></script>
 </body>
 
 </html>

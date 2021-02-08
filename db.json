@@ -1,5 +1,5 @@
 {
-  "employees": [
+  "users": [
     {
       "fname": "salah",
       "lname": "gamal",
@@ -11,15 +11,15 @@
       "attendance": {
         "1": {
           "attendance_time": [
-            "2/6/2021, 5:06:53 AM"
+            "2/6/2021, 9:03:36 PM",
+            "2/8/2021, 12:34:53 PM"
           ],
-          "late": "0",
-          "permission": "0",
-          "excuse": "0"
+          "late": 1,
+          "excuse": 3
         }
       },
-      "role": 3,
-      "created_at": "2/6/2021, 5:05:13 AM",
+      "role": 1,
+      "created_at": "2/6/2021, 9:05:13 AM",
       "id": 1
     },
     {
@@ -33,7 +33,74 @@
       "attendance": {
         "1": {
           "attendance_time": [
-            "2/6/2021, 10:25:15 AM"
+            "2/6/2021, 2:03:44 PM",
+            "2/7/2021, 1:31:38 AM",
+            "2/8/2021, 1:04:13 PM"
+          ],
+          "late": 2,
+          "excuse": 4
+        }
+      },
+      "role": 3,
+      "created_at": "2/6/2021, 8:56:58 AM",
+      "id": 2
+    },
+    {
+      "fname": "Savannah",
+      "lname": "Barrett",
+      "email": "devshennawy@gmail.com",
+      "address": "Quos magnam non sit",
+      "age": "40",
+      "username": "Savannah_Barrett_1612668558470",
+      "password": "Savannah_Barrett_86",
+      "attendance": {
+        "1": {
+          "attendance_time": [
+            "2/7/2021, 9:40:15 AM",
+            "2/8/2021, 12:37:33 PM"
+          ],
+          "late": 2,
+          "excuse": 4
+        }
+      },
+      "role": 3,
+      "created_at": "2/7/2021, 5:29:20 AM",
+      "id": 3
+    },
+    {
+      "fname": "Hamilton",
+      "lname": "Weeks",
+      "email": "devshennawy@gmail.com",
+      "address": "Laborum qui magnam t",
+      "age": "88",
+      "username": "Hamilton_Weeks_1612732681191",
+      "password": "Hamilton_Weeks_89",
+      "attendance": {
+        "1": {
+          "attendance_time": [
+            "2/8/2021, 12:34:47 PM"
+          ],
+          "late": 1,
+          "permission": "0",
+          "excuse": 1
+        }
+      },
+      "role": 3,
+      "created_at": "2/7/2021, 11:18:02 PM",
+      "id": 4
+    },
+    {
+      "fname": "ayman",
+      "lname": "ali",
+      "email": "devshennawy@gmail.com",
+      "address": "syria",
+      "age": "22",
+      "username": "ayman_ali_1612734022965",
+      "password": "ayman_ali_93",
+      "attendance": {
+        "1": {
+          "attendance_time": [
+            "2/8/2021, 12:35:05 PM"
           ],
           "late": 1,
           "permission": "0",
@@ -41,20 +108,30 @@
         }
       },
       "role": 3,
-      "created_at": "2/6/2021, 5:56:58 AM",
-      "id": 2
-    }
-  ],
-  "admins": [
+      "created_at": "2/7/2021, 11:40:24 PM",
+      "id": 5
+    },
     {
-      "id": 1,
-      "fname": "Salah",
-      "lname": "Gamal",
-      "username": "Salah_51248",
+      "fname": "Savannah",
+      "lname": "Barrett",
       "email": "devshennawy@gmail.com",
-      "address": "Sharqia, Egypt",
-      "password": "salah_48",
-      "age": 26
+      "address": "Quos magnam non sit",
+      "age": "22",
+      "username": "Savannah_Barrett_1612734662409",
+      "password": "Savannah_Barrett_2",
+      "attendance": {
+        "1": {
+          "attendance_time": [
+            "2/8/2021, 12:35:20 PM"
+          ],
+          "late": 1,
+          "permission": "0",
+          "excuse": 1
+        }
+      },
+      "role": 3,
+      "created_at": "2/7/2021, 11:51:03 PM",
+      "id": 6
     }
   ]
 }
