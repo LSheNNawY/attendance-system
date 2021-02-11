@@ -269,6 +269,7 @@ $(function () {
                                     $("#selectEmployee").val('');
                                     $(".filter-option-inner-inner").text($("#selectEmployee").attr("title"));
                                     $("#attendBtn").attr("disabled", true);
+                                    $("#excuseBtn").attr("disabled", true);
                                     localStorage.removeItem('selectedUser');
                                 });
                             })
