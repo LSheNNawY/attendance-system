@@ -20,10 +20,10 @@ $(function () {
         // smtp configuration
         const smtpConfig = {
             Host: "smtp.gmail.com",
-            Username: "devshennawy@gmail.com",
-            Password: "hqrcnqpkdfxvtqik",
-            To: 'devshennawy@gmail.com',
-            From: "devshennawy@gmail.com",
+            Username: "websitemail@gmail.com",
+            Password: "password",
+            To: 'websitemail@gmail.com',
+            From: "usermail@gmail.com",
             Subject: "New employee registeration data",
         }
 
