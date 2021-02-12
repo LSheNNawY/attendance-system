@@ -1,5 +1,21 @@
 # Attendance system
 
+Simple attendance system using client side technologies:
+
+- HTML
+- CSS
+- Bootstrap
+- JS
+
+---
+
+## Requirements
+
+- live server
+- json server
+
+---
+
 - open **_front_** directory in vscode and then run **_live server_**
 
 - run
